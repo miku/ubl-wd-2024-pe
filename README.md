@@ -16,7 +16,7 @@
 [organizer](https://golangleipzig.space/), former Lecturer at [Lancaster
 University](https://www.lancasterleipzig.de/) (Leipzig)
 * curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related)
-* fun fact: published first short story at age 17, the anthology is preserved at this library, but thankfully not finable with out catalog
+* fun fact: published first short story at age 17, the anthology is preserved at this library, but thankfully not finable through the catalog
 
 ## Prompt Engineering
 
