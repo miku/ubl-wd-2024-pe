@@ -36,8 +36,8 @@ University](https://www.lancasterleipzig.de/) Leipzig
   [haikus](https://golangleipzig.space/meetup-38-llm-haiku/meetup-38-llm-haiku.pdf),
 is the conversion of unstructured data (e.g. "strings", "bytes") to structured data
 (e.g. "metadata")
-* previous talks: [cgosamples](https://github.com/miku/cgosamples), [local
-  models](https://github.com/miku/localmodels), upcoming: [Was ist ein
+* previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
+  models](https://github.com/miku/localmodels) (2023), upcoming: [Was ist ein
 Transformer?](#) (at [CLT24](https://chemnitzer.linux-tage.de/2024), w/ [SME](https://pleiszenburg.de))
 
 ## Prompt Engineering
