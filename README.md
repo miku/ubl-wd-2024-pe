@@ -4,6 +4,10 @@
 > Czygan](mailto:martin.czygan@gmail.com), software developer, author and data
 > engineer
 
+[Random voice](https://news.ycombinator.com/item?id=34885491) on the internet:
+"The prompt engineers will be the first self-proclaimed engineers to be
+replaced by AI."
+
 ## About Me
 
 [![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M)
@@ -95,3 +99,9 @@ And:
 > language model pre-training with a latent knowledge retriever, which allows
 > the model to retrieve and attend over doc- uments from a large corpus such as
 > Wikipedia, used during pre-training, fine-tuning and infer-ence. -- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/pdf/2002.08909.pdf)
+
+* [Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
+
+> They also, paradoxically, struggle with basic functionality, such as
+> arithmetic or factual lookup, where much simpler and smaller models excel.
+
