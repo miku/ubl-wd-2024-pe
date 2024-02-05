@@ -23,7 +23,7 @@ University](https://www.lancasterleipzig.de/) Leipzig
 * usually only "ML"
 * I'm working and testing out [open](https://arxiv.org/pdf/2302.04844.pdf) models, mostly - models for which the research and development process is (at least somewhat) documented
 
-![](static/578575.gif)
+![Running Sosaka/Alpaca-native-4bit-ggml [9c1bb480] from 2023-03-21 on a 2018 laptop w/ i7-8550u CPU and w/o GPU, recorded 2023-04-19](static/578575.gif)
 
 > But there is frustration in the science community over OpenAI's secrecy
 > around how the model was trained and what data were used, and how GPT-4
