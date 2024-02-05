@@ -89,4 +89,9 @@ can use text ("prompt") to steer output towards *some* direction.
 > accuracy and reliability of generative AI models with facts fetched from
 > external sources.
 
+And:
 
+> To capture knowledge in a more modular and interpretable way, we augment
+> language model pre-training with a latent knowledge retriever, which allows
+> the model to retrieve and attend over doc- uments from a large corpus such as
+> Wikipedia, used during pre-training, fine-tuning and infer-ence. -- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/pdf/2002.08909.pdf)
