@@ -37,8 +37,7 @@ University](https://www.lancasterleipzig.de/) Leipzig
 is the conversion of unstructured data (e.g. "strings", "bytes") to structured data
 (e.g. "metadata")
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
-  models](https://github.com/miku/localmodels) (2023), upcoming: [Was ist ein
-Transformer?](#) (at [CLT24](https://chemnitzer.linux-tage.de/2024), w/ [SME](https://pleiszenburg.de))
+  models](https://github.com/miku/localmodels) (2023)
 
 ## Prompt Engineering
 
@@ -66,6 +65,7 @@ publications about "prompt engineering"
 [1913](http://www.alpha60.de/research/markov/DavidLink_AnExampleOfStatistical_MarkovTrans_2007.pdf)
 (Markov) or also
 [1951](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf) (Shannon)
+* in 2024 there are "marketplaces" for "prompts" -- 'care about some "Stoic Wisdom For Modern Challenges" for $3.99 or "Social Media Strategy For Companies" for $2.99?
 
 To illustrate, let's train a model and use to generate some text in 60 seconds.
 
