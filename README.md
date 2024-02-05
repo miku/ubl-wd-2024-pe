@@ -81,4 +81,12 @@ can use text ("prompt") to steer output towards *some* direction.
 ## Patterns
 
 * persona pattern, "act as X"
+* [analytic augmentation](https://github.com/williamcotton/empirical-philosophy/blob/main/articles/from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-agumentation.md#from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-augmentation)
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+* [RAG](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
+
+> Retrieval-augmented generation (RAG) is a technique for enhancing the
+> accuracy and reliability of generative AI models with facts fetched from
+> external sources.
+
 
