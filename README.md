@@ -8,6 +8,8 @@
 "The prompt engineers will be the first self-proclaimed engineers to be
 replaced by AI."
 
+> LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS [2211.01910.pdf](https://arxiv.org/pdf/2211.01910.pdf)
+
 ## About Me
 
 [![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M)
