@@ -44,11 +44,18 @@ Transformer?](#) (at [CLT24](https://chemnitzer.linux-tage.de/2024), w/ [SME](ht
 
 * the wikipedia article about [Prompt
   Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) is not that
-old (first appeared in
-[2021-10-20](https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1050870205)
-(a Wednesday)
+old, it first appeared in
+[2021-10-20](https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1050870205), a Wednesday
+* I first used tweet [1599971348717051904](https://twitter.com/alexandr_wang/status/1599971348717051904) as a joke on 2022-12-12 during a intro to programming CS course
 
+> [...] I am going to assert that Riley is the first Staff Prompt Engineer hired *anywhere*. [...]
 
+* as of 2024-02-05, IA Scholar finds
+  [2066](https://scholar.archive.org/search?q=%22prompt+engineering%22), Google
+Scholar [about
+10100](https://scholar.google.com/scholar?q=%22prompt+engineering%22)
+publications about "prompt engineering"
+* let's compress some of these learnings into the next 20 minutes
 
 ## Patterns
 
