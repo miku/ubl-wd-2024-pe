@@ -6,7 +6,7 @@
 
 ## About Me
 
-![](static/Sanco_8001.png)
+[![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M)
 
 * Software Developer at [Leipzig University Library](https://ub.uni-leipzig.de)
 * Open Data Engineer at [Internet Archive](https://archive.org), working on [Internet Archive Scholar](https://en.wikipedia.org/wiki/Internet_Archive_Scholar)
