@@ -67,7 +67,7 @@ publications about "prompt engineering"
 [1951](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf) by Claude Shannon
 * in 2024 there are "marketplaces" for "prompts" -- 'care about some "Stoic Wisdom For Modern Challenges" for $3.99 or "Social Media Strategy For Companies" for $2.99?
 
-To illustrate, let's train a model and use to generate some text in 60 seconds.
+To illustrate, let's train a model and use to generate some text in 60 seconds. XXX: king-james-bible + X
 
 
 ## LLM
