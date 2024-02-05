@@ -59,7 +59,7 @@ publications about "prompt engineering"
 
 ## Where does PROMPT come from?
 
-* we use the term "PROMPT" in computing for a long time, at least since [1973](https://dspinellis.github.io/unix-v3man/v3man.pdf), but surely for quite a bit longer
+* we use the term "PROMPT" ("Eingabeaufforderung") in computing for a long time, at least since [1973](https://dspinellis.github.io/unix-v3man/v3man.pdf), but surely for quite a bit longer (in operatings systems, games; the original [ELIZA paper](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) does not mention "prompt")
 * what a language model does is to find a probable continuation of some input, e.g. prefix or prompt
 * language models go back to 1980's, and the statistical nature of text has
   been researched since at least
