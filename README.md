@@ -57,6 +57,27 @@ Scholar [about
 publications about "prompt engineering"
 * let's compress some of these learnings into the next 20 minutes
 
+## Where does PROMPT come from?
+
+* we use the term "PROMPT" in computing for a long time, at least since [1973](https://dspinellis.github.io/unix-v3man/v3man.pdf), but surely for quite a bit longer
+* what a language model does is to find a probable continuation of some input, e.g. prefix or prompt
+* language models go back to 1980's, and the statistical nature of text has
+  been researched since at least
+[1913](http://www.alpha60.de/research/markov/DavidLink_AnExampleOfStatistical_MarkovTrans_2007.pdf)
+(Markov) or also
+[1951](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf) (Shannon)
+
+To illustrate, let's train a model and use to generate some text in 60 seconds.
+
+
+## LLM
+
+An LLM is so large, it learns patters, so that we do not need to encode every
+NLP task seperately; there is an "instruct" style training (XXX: how), so it
+can use text ("prompt") to steer output towards *some* direction.
+
+> ["Language Models are Few-Shot Learners"](https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf), 2020, [Cited by 20138](https://scholar.google.com/scholar?q=Language+Models+are+Few-Shot+Learners)
+
 ## Patterns
 
 * persona pattern, "act as X"
