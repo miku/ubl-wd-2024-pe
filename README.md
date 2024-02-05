@@ -63,8 +63,8 @@ publications about "prompt engineering"
 * language models go back to 1980's, and the statistical nature of text has
   been researched since at least
 [1913](http://www.alpha60.de/research/markov/DavidLink_AnExampleOfStatistical_MarkovTrans_2007.pdf)
-(Markov) or also
-[1951](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf) (Shannon)
+(Andrey Markov), and later, in
+[1951](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf) by Claude Shannon
 * in 2024 there are "marketplaces" for "prompts" -- 'care about some "Stoic Wisdom For Modern Challenges" for $3.99 or "Social Media Strategy For Companies" for $2.99?
 
 To illustrate, let's train a model and use to generate some text in 60 seconds.
