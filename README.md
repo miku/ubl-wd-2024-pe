@@ -15,6 +15,7 @@
 [contributor](https://github.com/miku), community
 [organizer](https://golangleipzig.space/), former Lecturer at [Lancaster
 University](https://www.lancasterleipzig.de/) (Leipzig)
+* curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related)
 
 ## Prompt Engineering
 
