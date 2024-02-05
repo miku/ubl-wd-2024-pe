@@ -32,6 +32,11 @@ University](https://www.lancasterleipzig.de/) Leipzig
 > climate at HuggingFace, an open-source AI cooperative. --
 > [GPT-4 IS HERE: WHAT SCIENTISTS THINK](http://www.hajim.rochester.edu/che/assets/pdf/gpt-4-is-here-what-scientists-think.pdf) (03/2023)
 
+* main "serious" topic, beside
+  [haikus](https://golangleipzig.space/meetup-38-llm-haiku/meetup-38-llm-haiku.pdf),
+is the conversion of unstructured data (e.g. "strings", "bytes") to structured data
+(e.g. "metadata")
+
 ## Prompt Engineering
 
 * the wikipedia article about [Prompt
