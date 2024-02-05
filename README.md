@@ -28,7 +28,7 @@ University](https://www.lancasterleipzig.de/) Leipzig
 > But there is frustration in the science community over OpenAI's secrecy
 > around how the model was trained and what data were used, and how GPT-4
 > actually works. "All of these closed-source models, they are essentially dead
-> ends in science," says Sasha Luccioni, a research scientist specializing in
+> ends in science," says [Sasha Luccioni](https://www.sashaluccioni.com/), a research scientist specializing in
 > climate at HuggingFace, an open-source AI cooperative. --
 > [GPT-4 IS HERE: WHAT SCIENTISTS THINK](http://www.hajim.rochester.edu/che/assets/pdf/gpt-4-is-here-what-scientists-think.pdf) (03/2023)
 
@@ -36,6 +36,9 @@ University](https://www.lancasterleipzig.de/) Leipzig
   [haikus](https://golangleipzig.space/meetup-38-llm-haiku/meetup-38-llm-haiku.pdf),
 is the conversion of unstructured data (e.g. "strings", "bytes") to structured data
 (e.g. "metadata")
+* previous talks: [cgosamples](https://github.com/miku/cgosamples), [local
+  models](https://github.com/miku/localmodels), upcoming: [Was ist ein
+Transformer?](#) (at [CLT24](https://chemnitzer.linux-tage.de/2024), w/ [SME](https://pleiszenburg.de))
 
 ## Prompt Engineering
 
