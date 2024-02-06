@@ -15,8 +15,7 @@ replaced by AI."
 
 [![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M)
 
-* Software Developer at [Leipzig University Library](https://ub.uni-leipzig.de)
-* Open Data Engineer at [Internet Archive](https://archive.org), working on [Internet Archive Scholar](https://en.wikipedia.org/wiki/Internet_Archive_Scholar)
+* Software Developer at [Leipzig University Library](https://ub.uni-leipzig.de), Open Data Engineer at [Internet Archive](https://archive.org), working on [Internet Archive Scholar](https://en.wikipedia.org/wiki/Internet_Archive_Scholar)
 * Misc: consultant,
   [author](https://scholar.google.com/citations?user=7gueY4EAAAAJ), open source
 [contributor](https://github.com/miku), community
@@ -27,8 +26,8 @@ University](https://www.lancasterleipzig.de/) Leipzig
 
 ## Perspective on "AI"
 
-* usually only "ML"
-* I'm working and testing out [open](https://arxiv.org/pdf/2302.04844.pdf) models, mostly - models for which the research and development process is (at least somewhat) documented
+* for the most part, "AI" is just "ML"
+* testing [open](https://arxiv.org/pdf/2302.04844.pdf) models, mostly - models for which the research and development process is (at least somewhat) documented
 
 ![Running Sosaka/Alpaca-native-4bit-ggml [9c1bb480] from 2023-03-21 on a 2018 laptop w/ i7-8550u CPU and w/o GPU, recorded 2023-04-19](static/578575.gif)
 
