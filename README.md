@@ -26,7 +26,7 @@ University](https://www.lancasterleipzig.de/) Leipzig
 
 ## Perspective on "AI"
 
-* for the most part, "AI" is just "ML"
+* "AI" is mostly "ML"
 * testing [open](https://arxiv.org/pdf/2302.04844.pdf) models, mostly - models for which the research and development process is (at least somewhat) documented
 
 ![Running Sosaka/Alpaca-native-4bit-ggml [9c1bb480] from 2023-03-21 on a 2018 laptop w/ i7-8550u CPU and w/o GPU, recorded 2023-04-19](static/578575.gif)
@@ -62,6 +62,12 @@ Scholar [about
 publications about "prompt engineering"
 * let's compress some of these learnings into the next 20 minutes
 
+> However, the open-ended nature of text as interaction is double-edged; while
+> users can input anything and
+have access to an infnite range of generations, they also must engage in
+brute-force trial and error with the text prompt when the result quality is
+poor. -- [Design Guidelines for Prompt Engineering Text-to-Image Generative Models](https://dl.acm.org/doi/pdf/10.1145/3491102.3501825)
+
 ## Where does PROMPT come from?
 
 * we use the term "PROMPT" ("Eingabeaufforderung") in computing for a long time, at least since [1973](https://dspinellis.github.io/unix-v3man/v3man.pdf), but surely for quite a bit longer (in operatings systems, games; the original [ELIZA paper](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) from 1966 does not mention "prompt")
@@ -75,6 +81,10 @@ publications about "prompt engineering"
 
 To illustrate, let's train a model and use to generate some text in 60 seconds. XXX: king-james-bible + X
 
+## Prompt Engineering
+
+> Prompt engineering is the means by which *LLMs are programmed* via prompts.
+
 
 ## LLM
 
@@ -84,7 +94,28 @@ can use text ("prompt") to steer output towards *some* direction.
 
 > ["Language Models are Few-Shot Learners"](https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf), 2020, [Cited by 20138](https://scholar.google.com/scholar?q=Language+Models+are+Few-Shot+Learners)
 
+## Conversations
+
+> One key feature of LLMs is in-context learning [ 14], where the model is
+> trained to generate text based on a given context or prompt. This enables
+> LLMs to generate more coherent and contextually relevant responses, making
+> them suitable for interactive and conversational applications. Reinforcement
+> Learning from Human Feedback (RLHF) [ 25, 268 ] is another crucial aspect of
+> LLMs. -- [A Survey on Evaluation of Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3641289)
+
+A main way to interact with a language model.
+
+> One common approach to interacting with LLMs is prompt engineering [26, 222 ,
+> 263 ], where users design and provide speciic prompt texts to guide LLMs in
+> generating desired responses or completing specific tasks. This is widely
+> adopted in existing evaluation eforts. People can also engage in
+> question-and-answer interactions [83], where they pose questions to the model
+> and receive answers, or engage in dialogue interactions, having natural
+> language conversations with LLMs.
+
 ## Patterns
+
+> A software pattern provides a reusable solution to a recurring problem within a particular context [10]. -- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf)
 
 * persona pattern, "act as X"
 * [analytic augmentation](https://github.com/williamcotton/empirical-philosophy/blob/main/articles/from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-agumentation.md#from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-augmentation)
