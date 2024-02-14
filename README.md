@@ -133,7 +133,7 @@ can use text ("prompt") to steer output towards *some* direction.
 
 Here's a task for [Mistral](https://mistral.ai/news/announcing-mistral-7b/) (September 27, 2023):
 
-> >>> how can conversational AI be useful for a student, who is writing an essay or in general?
+**how can conversational AI be useful for a student, who is writing an essay or in general?**
 
 > Conversational AI can be beneficial for students when they are writing essays or working on academic projects in various ways:
 
@@ -193,6 +193,15 @@ A main way to interact with a language model.
 > A software pattern provides a reusable solution to a recurring problem within a particular context [10]. -- [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf)
 
 * persona pattern, "act as X"
+* [EmotionPrompt](https://arxiv.org/pdf/2307.11760.pdf) -- "Large Language Models Understand and Can Be Enhanced by Emotional Stimuli"
+
+> EmotionPrompt outperforms existing existing prompt engineering approaches such as
+CoT and APE in most cases. We also see that EmotionPrompt can be plugged into APE in
+Table 1, indicating that EmotionPrompt is highly extensible and compatible with existing prompt
+engineering methods.
+
+More:
+
 * [analytic augmentation](https://github.com/williamcotton/empirical-philosophy/blob/main/articles/from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-agumentation.md#from-prompt-alchemy-to-prompt-engineering-an-introduction-to-analytic-augmentation)
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 * [RAG](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
