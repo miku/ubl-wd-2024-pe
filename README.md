@@ -45,6 +45,41 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
   models](https://github.com/miku/localmodels) (2023)
 
+## Co-creation
+
+> Prompt engineering is iterative and interactive - a dialogue between humans
+> and AI in an act of co-creation. -- [Prompting AI Art: An Investigation into
+> the Creative Skill of Prompt
+> Engineering](https://arxiv.org/pdf/2303.13534.pdf)
+
+## LLM prompting as retrieval problem
+
+Imagine an [infinite index](https://arxiv.org/pdf/2212.07476.pdf), for which
+there is no "built-in retrieval model" - how do we resurrect the document we
+want?
+
+## Endless Text (XXX: rerun calculation)
+
+Human text production back of the envelope calculation (since [1440](https://de.wikipedia.org/wiki/Buchdruck#Europa_und_Gutenberg), so 584 years).
+
+* 1B writers writing 1 page per day every day for 584 years, 1 page contains 250 words, average word length of 5
+* 1250 characters (bytes) * 1B * 365 * 584 = 266450000000000000 bytes of human text production = about 236 petabyte of text
+* text can be compressed well, say to 20% of the size: 47,3 PB to store = need 2956 16T disks, one 16T disk costs about $300 = $868,600
+
+How many tokens can LLMs produce?
+
+* on off-the-shelf consumer hardware, it is possible to generate coherent text about 25
+  words/s, or 10s for a single page. That's 86400x times the output of a human
+* on a single machine (with an [RTX 4000
+  SFF](https://www.nvidia.com/en-us/design-visualization/rtx-4000-sff/), 70W
+GPU) I can generate the amount of text equal to the amount of text all humans
+have produced in 2,4 days
+
+![](static/640322.gif)
+
+* NVIDIA sold 550000 [H100](https://www.tomshardware.com/news/nvidia-to-sell-550000-h100-compute-gpus-in-2023-report) GPUs in 2023 (maybe 20x more powerful than the RTX 4000 SFF ADA)
+* with all 550000 H100 GPUs produced in 2023 we can generate the equivalent of human text output from the past 584 years in 0.018s
+
 ## Prompt Engineering
 
 * the wikipedia article about [Prompt
