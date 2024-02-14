@@ -76,7 +76,6 @@ publications about "prompt engineering"
 
 To illustrate, let's train a model and use to generate some text in 60 seconds. XXX: king-james-bible + X
 
-
 ## LLM
 
 An LLM is so large, it learns patters, so that we do not need to encode every
@@ -84,6 +83,46 @@ NLP task seperately; there is an "instruct" style training (XXX: how), so it
 can use text ("prompt") to steer output towards *some* direction.
 
 > ["Language Models are Few-Shot Learners"](https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf), 2020, [Cited by 20138](https://scholar.google.com/scholar?q=Language+Models+are+Few-Shot+Learners)
+
+## Open Models
+
+Here's a task for [Mistral](https://mistral.ai/news/announcing-mistral-7b/) (September 27, 2023):
+
+> >>> how can conversational AI be useful for a student, who is writing an essay or in general?
+
+> Conversational AI can be beneficial for students when they are writing essays or working on academic projects in various ways:
+
+> 1. Providing instant feedback and suggestions: Conversational AI can help
+>    students identify grammatical errors, suggest synonyms, and even provide
+>    feedback on the clarity and coherence of their writing in real-time. This
+>    can save students time and effort in manually proofreading their work.
+
+> 2. Offering writing prompts and ideas: Conversational AI can provide students
+>    with a wide range of essay topics or writing prompts to choose from based
+>    on their interests and academic subjects. It can also suggest ideas for
+>    improving the structure, content, and style of their essays.
+
+> 3. Improving language learning: For non-native English speakers,
+>    conversational AI can help improve their language skills by offering
+>    suggestions, corrections, and explanations for grammar rules, sentence
+>    structure, and pronunciation. This can make it easier for students to write effectively in English.
+
+> 4. Encouraging creativity: Conversational AI can act as a writing partner or
+>    tutor, providing encouragement, ideas, and feedback to help students
+>    overcome writer's block and stay motivated while working on their essays.
+>    It can also suggest creative ways to approach different aspects of their writing projects.
+
+> 5. Providing time-management assistance: Conversational AI can help students
+>    manage their time by setting deadlines, providing reminders for upcoming
+>    assignments or exams, and offering suggestions for organizing their
+>    workload and prioritizing tasks. This can help students stay focused and productive while
+>    working on their essays and other academic projects.
+
+> Overall, conversational AI can provide students with valuable support,
+> feedback, and resources to help them improve their writing skills and
+> successfully complete their academic projects.
+
+![](static/640304.gif)
 
 ## Patterns
 
