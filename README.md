@@ -45,6 +45,10 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
   models](https://github.com/miku/localmodels) (2023)
 
+## Latent-Space Navigation
+
+> navigating the latent space ([HN](https://news.ycombinator.com/item?id=35667970))
+
 ## Co-creation
 
 > Prompt engineering is iterative and interactive - a dialogue between humans
@@ -103,6 +107,13 @@ have access to an infnite range of generations, they also must engage in
 brute-force trial and error with the text prompt when the result quality is
 poor. -- [Design Guidelines for Prompt Engineering Text-to-Image Generative Models](https://dl.acm.org/doi/pdf/10.1145/3491102.3501825)
 
+Other definitions:
+
+> A prompt is an input, a text command or a question provided to an AI model,
+> to generate desired output like content or answer. The process of crafting
+> effective and efficient prompts is called prompt design or prompt
+> engineering. -- [Azure ML docs](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-retrieval-augmented-generation?view=azureml-api-2)
+
 ## Where does PROMPT come from?
 
 * we use the term "PROMPT" ("Eingabeaufforderung") in computing for a long time, at least since [1973](https://dspinellis.github.io/unix-v3man/v3man.pdf), but surely for quite a bit longer (in operatings systems, games; the original [ELIZA paper](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) from 1966 does not mention "prompt")
@@ -115,6 +126,8 @@ poor. -- [Design Guidelines for Prompt Engineering Text-to-Image Generative Mode
 * in 2024 there are "marketplaces" for "prompts" -- 'care about some "Stoic Wisdom For Modern Challenges" for $3.99 or "Social Media Strategy For Companies" for $2.99?
 
 To illustrate, let's train a model and use to generate some text in 60 seconds. XXX: king-james-bible + X
+
+> Prompts are hyperparameters. Every time you test a different prompt on your data, you become less sure if the LLM actually generalizes to unseen data. -- [https://huggingface.co/posts/MoritzLaurer/918404500694779](https://huggingface.co/posts/MoritzLaurer/918404500694779)
 
 ## Prompt Engineering
 
