@@ -71,7 +71,7 @@ probabilistic framework as estimating a conditional distribution
 `p(output|input)` . Since a general system should be able to perform many
 different tasks, even for the same input, **it should condition not only on the
 input but also on the task to be performed**. That is, it should model
-p(output|input, task). -- [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+`p(output|input, task)`. -- [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
 <!-- ![](static/data-to-pe.png) -->
 
