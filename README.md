@@ -232,10 +232,35 @@ congregation    0.7869210243225098
 camp            0.778090238571167
 ```
 
+NOTE: these embeddings are dependent on your input. What is similar to what is
+learned directly from the data.
+
+> [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word
+> Embeddings](https://arxiv.org/pdf/1607.06520.pdf), e.g. "We show that even
+word embeddings trained on Google News articles exhibit female/male gender
+stereotypes to a disturbing extent." (2016)
+
+Lot of research into this area alone. But how would a solution look like?
+
+> [Large language models propagate race-based medicine](https://www.nature.com/articles/s41746-023-00939-z.pdf)
+
+And more.
+
+> One key ethical consideration is representation. It is essential to ensure
+> that the training data used to develop generative AI models are
+> representative of the diverse range of
+perspectives, experiences, and backgrounds that exist within society ([99, 35,
+94, 58, 100]). This helps to reduce the risk that biases are absorbed and
+propagated by models, leading to more equitable outcomes.  **Transparency is
+another important aspect**. Developers should be transparent about the
+methodologies, data sources, and potential limitations of their generative AI
+models ([101, 102]). -- [Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models](https://arxiv.org/pdf/2304.03738.pdf) (2023)
 
 
+## Following instructions
 
-
+Fewer people cared about a pure "text" language model, but people immediately
+jumped onto the "instruct" type of models.
 
 ----
 
