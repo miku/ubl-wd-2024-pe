@@ -149,7 +149,12 @@ The model file is 27MB in size.
 
 Let's ask our 100-D model about cat-mouse-table relationship.
 
-
+```shell
+$ python calculate_distances.py | column -t
+cat    mouse  0.2123
+cat    table  0.3126
+mouse  table  0.4248
+```
 
 ## Latent-Space Navigation
 
@@ -162,6 +167,29 @@ So, we have a "latent" space now.
 > navigating the latent space ([HN](https://news.ycombinator.com/item?id=35667970))
 
 Let's do some surrealist word arithmetic in our latent space.
+
+```shell
+$ python arithmetic.py | column -t
+
+KIND+WOMEN-MAN
+queen           0.6779043674468994
+captain         0.6737080216407776
+prophet         0.6566919684410095
+
+WAR-BLOOD
+139:20          0.5924164652824402
+kadeshbarnea    0.566044270992279
+scuffling       0.5186205506324768
+
+SHIP+MOVE
+sail            0.9151894450187683
+close           0.878623902797699
+characters      0.8774296641349792
+
+CITY+PEOPLE
+congregation    0.7869210243225098
+camp            0.778090238571167
+```
 
 
 
