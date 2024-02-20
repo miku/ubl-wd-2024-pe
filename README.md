@@ -21,8 +21,7 @@ replaced by AI."
 [contributor](https://github.com/miku), community
 [organizer](https://golangleipzig.space/), former Lecturer at [Lancaster
 University](https://www.lancasterleipzig.de/) Leipzig
-* curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related), curious about machine learning since about [2011](http://web.archive.org/web/20110816035332/ai-class.com)
-* fun fact: published first short story at age 17, the anthology is preserved at this library, but thankfully not findable through the catalog
+* curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related), about machine learning since about [2011](http://web.archive.org/web/20110816035332/ai-class.com)
 
 ## Perspective on "AI"
 
@@ -33,8 +32,8 @@ University](https://www.lancasterleipzig.de/) Leipzig
 
 > But there is frustration in the science community over OpenAI's secrecy
 > around how the model was trained and what data were used, and how GPT-4
-> actually works. "All of these closed-source models, they are essentially dead
-> ends in science," says [Sasha Luccioni](https://www.sashaluccioni.com/), a research scientist specializing in
+> actually works. "**All of these closed-source models, they are essentially dead
+> ends in science**," says [Sasha Luccioni](https://www.sashaluccioni.com/), a research scientist specializing in
 > climate at HuggingFace, an open-source AI cooperative. --
 > [GPT-4 IS HERE: WHAT SCIENTISTS THINK](http://www.hajim.rochester.edu/che/assets/pdf/gpt-4-is-here-what-scientists-think.pdf) (03/2023)
 
@@ -44,6 +43,18 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 (e.g. "metadata")
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
   models](https://github.com/miku/localmodels) (2023)
+
+## What is a prompt? Engineering?
+
+> A prompt is an input, a text command or a question provided to an AI model,
+> to generate **desired output** like content or answer. The process of crafting
+> effective and efficient prompts is called prompt design or prompt
+> engineering. -- [Azure ML docs](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-retrieval-augmented-generation?view=azureml-api-2)
+
+## Why does it exist at all?
+
+![](static/data-to-pe.png)
+
 
 ## Latent-Space Navigation
 
