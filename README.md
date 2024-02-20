@@ -114,9 +114,7 @@ without calling sysexcinfo bpo allow the creation of new features related to
 fifo false if pattern is relative and then sort again
 ```
 
-Well. Let's add more training data. How about 224M files of text, about 40M words.
-
-
+Well. Let's add more training data. How about 224M files of text, about 40M words. [Screenie](static/641812.gif).
 
 ## Embeddings and word arithmetic
 
