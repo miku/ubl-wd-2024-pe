@@ -90,7 +90,11 @@ There are attempts to recreate that dataset (e.g. "OpenWebText").
 
 ## Classic language model
 
-* build a "model" from two different example corpora
+* XXX: build a "model" from two different example corpora, aka "markov"
+
+In the June 1989 issue of Scientific American, we find:
+
+[![](static/computer-recreations-markov-page-1-50.png)](https://archive.org/details/ComputerRecreationsMarkovChainer)
 
 
 ## Embeddings and word arithmetic
