@@ -14,8 +14,8 @@ if __name__ == '__main__':
     for a, b in itertools.combinations(words, r=2):
         # for d in model.wv.distances(a, [a]):
         #     print(a, a, abs(round(d, 4)))
-        for d in model.wv.distances(a, [b]):
-            print(a, b, abs(round(d, 4)))
+        d = model.wv.distance(a, b)
+        print(a, b, abs(round(d, 4)))
 
         # $ python dist.py | column -t | sort -k 3,3 -n
         # cat    mouse  0.2123
