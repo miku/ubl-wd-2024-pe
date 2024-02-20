@@ -129,15 +129,46 @@ Am word embedding is a representation of word, **encoding meaning**.
 * is cat closer to mouse? is table closer to cat or mouse? ...
 
 ```shell
-$ python w2v.py
+$ python make_model.py
+
+real    0m1.905s
+user    0m2.284s
+sys     0m1.430s
 ```
 
+We are able to build some model from little data, 1M words, 6MB file.
+
+```
+$ wc -cw corpus.file
+1096052 6050923 corpus.file
+```
+
+The model file is 27MB in size.
+
 ![](static/cat-mouse-table-100.png)
+
+Let's ask our 100-D model about cat-mouse-table relationship.
+
 
 
 ## Latent-Space Navigation
 
+So, we have a "latent" space now.
+
+> Latent space refers to an abstract multi-dimensional space containing feature
+> values that we cannot interpret directly, but which encodes a meaningful
+> internal representation of externally observed events. -- [What is a latent space?](https://stats.stackexchange.com/questions/442352/what-is-a-latent-space)
+
 > navigating the latent space ([HN](https://news.ycombinator.com/item?id=35667970))
+
+Let's do some surrealist word arithmetic in our latent space.
+
+
+
+
+
+
+----
 
 ## Co-creation
 
