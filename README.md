@@ -77,7 +77,8 @@ input but also on the task to be performed**. That is, it should model
 
 ![](static/8gfpvm.jpg)
 
-An early web-based dataset ("WebText", 2019, not made publicly available).
+Data as fuel; one early example: 45M outlinks from reddit, w/ at least 3 karma;
+an (early) web-based dataset ("WebText", 2019, not made publicly available).
 
 > Manually filtering a full web scrape would be exceptionally expensive so as a
 starting point, we scraped all outbound links from Reddit, a social media
@@ -86,7 +87,8 @@ heuristic indicator for whether other users found the link **interesting,
 educational, or just funny**. The resulting dataset, WebText, contains the text
 subset of these 45 million links.
 
-There are attempts to recreate that dataset (e.g. "OpenWebText").
+There are attempts to recreate that dataset (e.g. "OpenWebText"), other open
+datasets include, e.g. [The Pile](https://pile.eleuther.ai/).
 
 ## Classic language model
 
@@ -95,6 +97,25 @@ column, titled [A potpourri of programmed prose and
 prosody](https://archive.org/details/ComputerRecreationsMarkovChainer):
 
 [![](static/computer-recreations-markov-page-1-50.png)](https://archive.org/details/ComputerRecreationsMarkovChainer)
+
+It takes about 10s on a CPU to create a language model from 400K words, using
+a slightly strange combination of texts, e.g. bible, python docs, etc.
+
+Example output:
+
+```shell
+$ make generate
+python gentext.py
+
+with likewise the itertools module the result gives total ordering its
+generally true that am the lord when thy days that were numbered of them as he
+goeth in to wait for enqueued tasks have completed before ascompleted is called
+without calling sysexcinfo bpo allow the creation of new features related to
+fifo false if pattern is relative and then sort again
+```
+
+Well. Let's add more training data. How about 224M files of text, about 40M words.
+
 
 
 ## Embeddings and word arithmetic
