@@ -90,6 +90,10 @@ subset of these 45 million links.
 There are attempts to recreate that dataset (e.g. "OpenWebText"), other open
 datasets include, e.g. [The Pile](https://pile.eleuther.ai/).
 
+Also note: beside all human input in form of training data, current "AI" requires a lot
+of mostly global south based labor to function, cf. [The Glamorisation of
+Unpaid Labour: AI and its Influencers](https://arxiv.org/pdf/2308.02399.pdf).
+
 ## Classic language model
 
 In the June 1989 issue of Scientific American, on page 122-125, we find a
