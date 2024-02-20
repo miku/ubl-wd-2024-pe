@@ -68,7 +68,9 @@ different tasks, even for the same input, **it should condition not only on the
 input but also on the task to be performed**. That is, it should model
 p(output|input, task). -- [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
-![](static/data-to-pe.png)
+<!-- ![](static/data-to-pe.png) -->
+
+![](static/8gfpvm.jpg)
 
 An early web-based dataset ("WebText", 2019, not made publicly available).
 
