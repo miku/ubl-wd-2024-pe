@@ -147,7 +147,48 @@ The model file is 27MB in size.
 
 ![](static/cat-mouse-table-100.png)
 
+These vectors encode some "latent" structure of language:
+
+```shell
+$ python most_similar.py forest | column -t
+air      0.914194643497467
+fish     0.9120122194290161
+heat     0.9068334698677063
+flood    0.8980449438095093
+heaps    0.8974539041519165
+rivers   0.883648693561554
+salt     0.8798093199729919
+springs  0.8796758055686951
+herbs    0.8791329264640808
+furnace  0.8751659989356995
+
+$ python most_similar.py face | column -t
+head      0.8484194874763489
+bed       0.8150191307067871
+feet      0.7782107591629028
+arm       0.7758032083511353
+foot      0.7634758353233337
+eyes      0.7624323964118958
+mule      0.7610143423080444
+shoulder  0.759937584400177
+fury      0.7592475414276123
+neck      0.7585527896881104
+
+$ python most_similar.py book | column -t
+chronicles    0.8260485529899597
+gospel        0.7329334616661072
+law           0.7292922139167786
+acts          0.7145913243293762
+kings         0.7094066739082336
+lamentations  0.7042030096054077
+service       0.6916581988334656
+sect          0.6836168766021729
+written       0.6775466799736023
+presence      0.674580991268158
+```
+
 Let's ask our 100-D model about cat-mouse-table relationship.
+
 
 ```shell
 $ python calculate_distances.py | column -t
