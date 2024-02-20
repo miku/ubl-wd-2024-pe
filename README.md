@@ -13,7 +13,7 @@ replaced by AI."
 
 ## About Me
 
-[![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M)
+<!-- [![](static/Sanco_8001.png)](https://en.wikipedia.org/wiki/CP/M) -->
 
 * Software Developer at [Leipzig University Library](https://ub.uni-leipzig.de), Open Data Engineer at [Internet Archive](https://archive.org), working on [Internet Archive Scholar](https://en.wikipedia.org/wiki/Internet_Archive_Scholar)
 * Misc: consultant,
@@ -23,7 +23,7 @@ replaced by AI."
 University](https://www.lancasterleipzig.de/) Leipzig
 * curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related), about machine learning since about [2011](http://web.archive.org/web/20110816035332/ai-class.com)
 
-## Perspective on "AI"
+## A perspective on "AI"
 
 * "AI" is mostly "ML"
 * testing [open](https://arxiv.org/pdf/2302.04844.pdf) models, mostly - models for which the research and development process is (at least somewhat) documented
@@ -40,7 +40,7 @@ University](https://www.lancasterleipzig.de/) Leipzig
 * main "serious" topic, beside
   [haikus](https://golangleipzig.space/meetup-38-llm-haiku/meetup-38-llm-haiku.pdf),
 is the conversion of unstructured data (e.g. "strings", "bytes") to structured data
-(e.g. "metadata")
+(e.g. "metadata"), information retrieval
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
   models](https://github.com/miku/localmodels) (2023)
 
@@ -53,7 +53,56 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 
 ## Why does it exist at all?
 
+These language models learn are meta-learners:
+
+> language models can also be understood as meta-learners where slow
+outer-loop gradient descent based learning is combined with **fast "in-context"
+learning implemented within the context activations of the model** -- [Language Models are Few-Shot Learners](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+
+This is new and only observed in larger models. We not only want a distribution over words, but words and tasks.
+
+> Learning to perform a single task can be expressed in a
+probabilistic framework as estimating a conditional distribution
+`p(output|input)` . Since a general system should be able to perform many
+different tasks, even for the same input, **it should condition not only on the
+input but also on the task to be performed**. That is, it should model
+p(output|input, task). -- [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
 ![](static/data-to-pe.png)
+
+An early web-based dataset ("WebText", 2019, not made publicly available).
+
+> Manually filtering a full web scrape would be exceptionally expensive so as a
+starting point, we scraped all outbound links from Reddit, a social media
+platform, which received at least **3 karma**. This can be thought of as a
+heuristic indicator for whether other users found the link **interesting,
+educational, or just funny**. The resulting dataset, WebText, contains the text
+subset of these 45 million links.
+
+There are attempts to recreate that dataset (e.g. "OpenWebText").
+
+## Classic language model
+
+* build a "model" from two different example corpora
+
+
+## Embeddings and word arithmetic
+
+Am word embedding is a representation of word, **encoding meaning**.
+
+> Mathematically, an embedding space, or latent space, is defined as a manifold
+> in which similar items are positioned closer to one another than less similar
+> items.
+
+![](static/cat-mouse-table.png)
+
+* is cat closer to mouse? is table closer to cat or mouse? ...
+
+```shell
+$ python w2v.py
+```
+
+![](static/cat-mouse-table-100.png)
 
 
 ## Latent-Space Navigation
