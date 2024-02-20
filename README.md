@@ -53,7 +53,12 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 
 ## Why does it exist at all?
 
-These language models learn are meta-learners:
+* the wikipedia article about [Prompt
+  Engineering](https://en.wikipedia.org/wiki/Prompt_engineering) is not that old, it first appeared in
+[2021-10-20](https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1050870205), a Wednesday
+* I used tweet [1599971348717051904](https://twitter.com/alexandr_wang/status/1599971348717051904) as a joke on 2022-12-12 during an intro to programming CS class
+
+These language models learn are META-LEARNERS:
 
 > language models can also be understood as meta-learners where slow
 outer-loop gradient descent based learning is combined with **fast "in-context"
