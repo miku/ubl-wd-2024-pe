@@ -21,7 +21,7 @@ replaced by AI."
 [contributor](https://github.com/miku), community
 [organizer](https://golangleipzig.space/), former Lecturer at [Lancaster
 University](https://www.lancasterleipzig.de/) Leipzig
-* curious about computers since about 1985 ([pic](https://en.wikipedia.org/wiki/CP/M) related), about machine learning since about [2011](http://web.archive.org/web/20110816035332/ai-class.com)
+* curious about computers since about 1985, about machine learning since about [2011](http://web.archive.org/web/20110816035332/ai-class.com)
 
 ## A perspective on "AI"
 
