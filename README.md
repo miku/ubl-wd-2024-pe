@@ -75,7 +75,7 @@ input but also on the task to be performed**. That is, it should model
 
 <!-- ![](static/data-to-pe.png) -->
 
-![](static/8gfpvm.jpg)
+![The LLM iceberg](static/8gfpvm.jpg)
 
 Data as fuel; one early example: 45M outlinks from reddit, w/ at least 3 karma;
 an (early) web-based dataset ("WebText", 2019, not made publicly available).
@@ -100,7 +100,7 @@ In the June 1989 issue of Scientific American, on page 122-125, we find a
 column, titled [A potpourri of programmed prose and
 prosody](https://archive.org/details/ComputerRecreationsMarkovChainer):
 
-[![](static/computer-recreations-markov-page-1-50.png)](https://archive.org/details/ComputerRecreationsMarkovChainer)
+[![COMPUTER RECREATIONS. Scientific American, 260(6), June 1989, 122–125](static/computer-recreations-markov-page-1-50.png)](https://archive.org/details/ComputerRecreationsMarkovChainer)
 
 It takes about 10s on a CPU to create a language model from 400K words, using
 a slightly strange combination of texts, e.g. bible, python docs, etc.
@@ -216,7 +216,7 @@ Let's do some surrealist word arithmetic in our latent space.
 ```shell
 $ python arithmetic.py | column -t
 
-KIND+WOMEN-MAN
+KING+WOMEN-MAN
 queen           0.6779043674468994
 captain         0.6737080216407776
 prophet         0.6566919684410095
