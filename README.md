@@ -203,7 +203,7 @@ mouse  table  0.4248
 
 ## Latent-Space Navigation
 
-So, we have a "latent" space now.
+So, we have a "latent" space now, that we can navigate.
 
 > Latent space refers to an abstract multi-dimensional space containing feature
 > values that we cannot interpret directly, but which encodes a meaningful
@@ -259,6 +259,32 @@ propagated by models, leading to more equitable outcomes.  **Transparency is
 another important aspect**. Developers should be transparent about the
 methodologies, data sources, and potential limitations of their generative AI
 models ([101, 102]). -- [Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models](https://arxiv.org/pdf/2304.03738.pdf) (2023)
+
+
+## LLM
+
+Embeddings are limited, but combined with a fast NN architecture, large models
+became possible and useful - pretrained on large amounts of data.
+
+Majority of the training is unsupervised, then a final layer is trained supervised on specific (language) tasks.
+
+## Learning from smaller datasets
+
+* learning from large datasets is not always possible
+* the learning dataset can be reduced to few examples ("few-shot learning") - where a previously trained model is used to shorten learning
+
+## Instruction Tuning
+
+> Instruction tuning helps the model perform tasks it wasn't trained on, giving
+> the model a range of applications. -- [](https://jasonwei20.github.io/files/FLAN%20talk%20external.pdf)
+
+From above presentation:
+
+> "Instruction tuning"—finetuning a language model on a
+collection of tasks described via instructions—improves the
+zero-shot performance of language models on unseen tasks.
+
+
 
 
 ## Following instructions
