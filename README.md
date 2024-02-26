@@ -47,6 +47,10 @@ VC-funded companies to gain traction, etc.
 [2021-10-20](https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1050870205), a Wednesday
 * I used tweet [1599971348717051904](https://twitter.com/alexandr_wang/status/1599971348717051904) as a joke on 2022-12-12 during an intro to programming CS class
 
+What an LLM thinks about PE:
+
+![](static/what-is-prompt-eng.png)
+
 
 ## Learning or Memorization
 
