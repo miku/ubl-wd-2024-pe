@@ -25,11 +25,11 @@ is the conversion of unstructured data (e.g. "strings", "bytes") to structured d
 * previous talks: [NN tour](https://github.com/miku/nntour) (2016), [PyTorch tour](https://github.com/miku/pytorch-tour) (2018), [ML w/ Go](https://github.com/miku/mlgo) (2018), [cgosamples](https://github.com/miku/cgosamples) (2023), [local
   models](https://github.com/miku/localmodels) (2023)
 
-## A growing ecosystem
+## A growing genai ecosystem
 
 * in the last 12 months, a number of closed and open models have been released (there is a [spectrum](https://arxiv.org/pdf/2302.04844.pdf))
 * large number of tools around models (often just thin wrappers)
-* dozens of [writing assistants](https://github.com/steven2358/awesome-generative-ai?tab=readme-ov-file#writing-assistants), more integrated with writing tasks
+* dozens of [writing assistants](https://github.com/steven2358/awesome-generative-ai?tab=readme-ov-file#writing-assistants), more integrated with writing tasks (ideation, readability, grammar checks, summarization, ...)
 * tools to help find snippets in your own documents, locally (maybe: better search)
 
 For programming, there are coding assistants. They can help to draft and
@@ -41,6 +41,7 @@ According to a case study of 150M LOC, code quality already [dropped in
 **need less code not more**, and the copilots currently work in the opposite
 direction.
 
-One important step is the proliferation of open models and tools that allow to
-run an LLM on your own machine (most of these notes are informed by experiments
-with local models).
+One important step is the proliferation of open models (e.g. Meta's
+[llama](https://ai.meta.com/blog/large-language-model-llama-meta-ai/)) and
+tools that allow to run an LLM on your own machine (most of these notes are
+informed by experiments with local models).
