@@ -6,3 +6,4 @@
 
 * [UBL-WD-2024-PE-MC.pdf](UBL-WD-2024-PE-MC.pdf)
 
+![](static/cat_sim.png)
