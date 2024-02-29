@@ -12,13 +12,13 @@ if __name__ == '__main__':
     model = Word2Vec.load(MODELFILE)
     # king - man + women = ...
 
-    print("\033[0;32mKIND+WOMEN-MAN\033[0m")
-    for w in model.wv.most_similar(positive=["king", "woman"], negative=["man"], topn=3):
+    print("\033[0;32mNIGHT-DARK\033[0m")
+    for w in model.wv.most_similar(positive=["night"], negative=["dark"], topn=3):
         print("\t".join((str(v) for v in w)))
-    print()
-    print("\033[0;32mWAR-BLOOD\033[0m")
-    for w in model.wv.most_similar(positive=["war"], negative=["blood"], topn=3):
-        print("\t".join((str(v) for v in w)))
+    # print()
+    # print("\033[0;32mWAR-BLOOD\033[0m")
+    # for w in model.wv.most_similar(positive=["", ""], negative=[], topn=3):
+    #     print("\t".join((str(v) for v in w)))
     print()
     print("\033[0;32mSHIP+MOVE\033[0m")
     for w in model.wv.most_similar(positive=["ship", "move"], topn=3):
